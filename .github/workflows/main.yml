@@ -20,5 +20,5 @@ jobs:
           DOCKERHUB_USERNAME: mayur1252
           IMAGE_NAME: my-image
         run: |
-          docker build -t mayurhelloimage .
-          docker push mayur1252/mayurhelloimage:latest
+          docker build -t mayur1252/mayursimage .
+          docker push mayur1252/mayursimage:latest
