@@ -13,11 +13,11 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
-          username: mayur1252
-          password: Tingare@123
+          username: ÷
+          password: ¿
       - name: Build, tag, and push image to DockerHub
         env:
-          DOCKERHUB_USERNAME: mayur1252
+          DOCKERHUB_USERNAME: ÷
           IMAGE_NAME: my-image
         run: |
           docker build -t mayur1252/mayursimage .
